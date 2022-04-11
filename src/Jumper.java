@@ -33,7 +33,7 @@ public class Jumper
 
     /**
      * The main method of the program
-     * Sets up the game and and required objects and contains the main loop of the game
+     * Sets up the game and required objects and contains the main loop of the game
      */
     public static void main(String[] args)
     {
@@ -45,7 +45,7 @@ public class Jumper
         Updater updater = gameIO.getUpdater();
         dp.drawStatsMenu(jumper.player);
         dp.drawBuildings(jumper.buildings);
-        char dir = ' ';
+        char dir;
         while (jumper.player.getFuel() > 0 && !jumper.player.hasWon()) // Main loop
         {
             dp.printOptions(jumper);
