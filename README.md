@@ -30,7 +30,7 @@ The Java Jumper game gameplay can be described as follows:
 
 * When the game begins, it prompts the user to enter their name which must be between 3 and 12 characters respectively. Should the user enter a name which does not meet this criteria, the user is then asked to re-enter until the criteria has been met.
 
-* Once the user has successfully entered their name, the game displays the buildings along with the indication for the exit portal as well as building on which fuel cells can be found. The maximum number of buildings which are available in the game for the player to jump to is 15. Students are encouraged to work on a display mode they can achieve for the game. The display outlined in the demo doesn’t have to be followed exactly if it appears to challenging to achieve.
+* Once the user has successfully entered their name, the game displays the buildings along with the indication for the exit portal as well as building on which fuel cells can be found. The maximum number of buildings which are available in the game for the player to jump to is 15.
 
 * When the game begins, the player is always placed on the top of the first building.
 
